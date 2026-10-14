@@ -22,6 +22,8 @@ public class CustomerEntity {
     @Pattern(regexp = "^[a-zA-Z]*$", message = "name  must be letter invalid name!!!")
     private String name;
 
+    private String firstName;
+
     @Column(name = "email", unique = true)
     @Email(message = "Enter a valid Email")
     private String email;
