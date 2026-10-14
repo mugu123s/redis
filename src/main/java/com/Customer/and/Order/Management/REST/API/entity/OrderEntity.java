@@ -23,6 +23,8 @@ public class OrderEntity {
 
     private String name;
 
+    private String firstName;
+
     @Column(name = "orderNumber")
     private UUID orderNumber;
 
