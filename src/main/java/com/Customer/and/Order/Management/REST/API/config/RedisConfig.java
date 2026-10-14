@@ -20,7 +20,7 @@ public class RedisConfig {
             RedisConnectionFactory redisConnectionFactory) {
 
         ObjectMapper objectMapper = new ObjectMapper();
-//
+//  hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
         GenericJacksonJsonRedisSerializer serializer =
                 new GenericJacksonJsonRedisSerializer(objectMapper);
 
