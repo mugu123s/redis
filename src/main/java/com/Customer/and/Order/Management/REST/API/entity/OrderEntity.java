@@ -27,6 +27,8 @@ public class OrderEntity {
     private String lastName;
     private String middleName;
 
+    private Double price;
+
     @Column(name = "orderNumber")
     private UUID orderNumber;
 
