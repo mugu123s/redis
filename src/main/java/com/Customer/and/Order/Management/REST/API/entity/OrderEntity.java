@@ -25,6 +25,7 @@ public class OrderEntity {
 
     private String firstName;
     private String lastName;
+    private String middleName;
 
     @Column(name = "orderNumber")
     private UUID orderNumber;
