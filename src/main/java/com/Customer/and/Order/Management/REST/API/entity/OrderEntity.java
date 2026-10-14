@@ -29,6 +29,9 @@ public class OrderEntity {
 
     private Double price;
 
+    private Double pricessss;
+
+
     @Column(name = "orderNumber")
     private UUID orderNumber;
 
